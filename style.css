@@ -1,0 +1,62 @@
+body {
+    background-color: blueviolet;
+}
+
+.pizzas {
+    border: 1000px;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 2em;
+    background-color: purple;
+}
+
+@media (min-width: 990px) {
+    .pizzas {
+        display: flex;
+    }
+}
+
+img {
+    width: 60%;
+    height: 65%;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* { position: absolute;
+width: 292.15px;
+height: 403.69px;
+
+background: #E2AE3D;
+
+} */
+
+.pizza-small{
+    background-color: pink;
+    border-image-width: 1%;
+    border: 5;
+    padding: 1em; 
+    margin: 1em;
+    border: solid black;
+}
+
+.pizza-med{
+    background-color: brown;
+    border-image-width: 1%;
+    border: 5;
+    padding: 1em; 
+    margin: 1em;
+    border: solid black;
+}
+
+.pizza-large{
+    background-color: yellow;
+    border-image-width: 1%;
+    border: 5;
+    padding: 1em; 
+    margin: 1em;
+    border: solid black;
+}
