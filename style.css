@@ -60,3 +60,14 @@ background: #E2AE3D;
     margin: 1em;
     border: solid black;
 }
+
+.footer {
+    background-color: red;
+    padding: 1em;
+}
+
+.contact-details {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
